@@ -17,7 +17,6 @@ var connection = mysql.createConnection({
 
 app.get('/scrape', function(req, res){
 
-//scrapping the link
   url = "https://www.costco.com/LG-86%22-Class-(85.6%22-Diag.)-4K-Ultra-HD-LED-LCD-TV.product.100361021.html";
    request(url, function(err, response, html) {
 
